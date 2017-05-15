@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 s.name = "LSYShowController"
 
-s.version = "1.0.0.0"
+s.version = "1.0.0.1"
 
 s.summary = "A Library for iOS in viewwillAppear to show current class controller."
 
@@ -16,8 +16,6 @@ s.author = { "lishiyong-github" => "1525846137@qq.com" }
 s.source = { :git => "https://github.com/lishiyong-github/LSYShowController.git", :tag => s.version }
 
 s.source_files = "LSYShowController/*.{h,m}"
-
-s.resources = "LSYShowController/ZAActivityBar.bundle"
 
 s.framework = 'UIKit'
 
